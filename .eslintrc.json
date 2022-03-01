@@ -1,0 +1,16 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["standard-with-typescript", "airbnb-base", "prettier", "plugin:prettier/recommended"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/no-redeclare":"off",
+        "prettier/prettier": "error"    
+    }
+}
